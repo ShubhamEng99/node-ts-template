@@ -1,0 +1,10 @@
+run npm init -y
+
+run npm i -D ts-node
+
+//express server 
+npm i express
+npm i -D typescript @types/node @types/express
+tsc --init
+npm i -D nodemon
+add script "ts-node file.ts" in package.json
